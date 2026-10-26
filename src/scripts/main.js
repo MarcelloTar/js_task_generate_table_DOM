@@ -368,12 +368,12 @@ people.forEach((man) => {
   const sex = man.sex === 'm' ? 'male' : 'female';
 
   tr.innerHTML = `
-    <th>${man.name}</th>
-    <th>${sex}</th>
-    <th>${man.born}</th>
-    <th>${man.died}</th>
-    <th>${age}</th>
-    <th>${century}</th>
+    <td>${man.name}</td>
+    <td>${sex}</td>
+    <td>${man.born}</td>
+    <td>${man.died}</td>
+    <td>${age}</td>
+    <td>${century}</td>
   `;
 
   dashboard.append(tr);
