@@ -365,7 +365,7 @@ people.forEach((man) => {
   const tr = document.createElement('tr');
   const age = man.died - man.born;
   const century = Math.ceil(man.died / 100);
-  const sex = man.sex === 'm' ? 'male' : 'female';
+  const sex = man.sex === 'm' ? 'Male' : 'Female';
 
   tr.innerHTML = `
     <td>${man.name}</td>
